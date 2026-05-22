@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [Nexus](https://vdmnexus.com) - Signed inference for autonomous agents. OpenAI-compatible `/chat/completions` gated by x402 on Solana mainnet and Base, with a cryptographically verifiable Ed25519 receipt of every model response (SIR v2). $0.01 USDC per call. ([Docs](https://docs.vdmnexus.com)) ([Spec](https://docs.vdmnexus.com/docs/spec/sir-v2)) ([Verifier](https://verify.vdmnexus.com)) ([GitHub](https://github.com/vdmnexus/vdmnexus))
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -85,6 +86,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402-rails (QuickNode)](https://github.com/quiknode-labs/x402-rails) - Ruby gem for integrating blockchain micropayments into your Ruby on Rails application
 - [x402-payments (QuickNode)](https://github.com/quiknode-labs/x402-payments) - Ruby gem for generating signed payment HTTP headers and links using the X402 protocol
 - [MoltPe (AI agent payment infrastructure)](https://github.com/umangbuilds/moltpe-agent-payments) - Non-custodial agent wallets with Shamir key splitting, programmable spending policies, and tri-rail support: x402 (HTTP-native), MPP (session-based), and fiat. 11 MCP tools for Claude Desktop, Cursor, Windsurf. Sub-second settlement on Polygon PoS, Base, Tempo. Free tier, no credit card. ([Site](https://moltpe.com))
+- [@vdm-nexus/sdk, @vdm-nexus/x402, @vdm-nexus/paywall, @vdm-nexus/mcp](https://github.com/vdmnexus/vdmnexus) - TypeScript SDKs for signed-inference x402: Ed25519 agent identity, x402 client + `verifyReceipt`, drop-in Express/Hono/Next paywall middleware, and MCP server for Claude Desktop / Cursor. MIT.
 
 
 
@@ -138,6 +140,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Vercel x402 AI Starter](https://vercel.com/templates/ai/x402-ai-starter) - Full-stack Next.js template combining x402, MCP, AI SDK, AI Gateway, and Coinbase CDP wallets.
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [vdmnexus.com/playground](https://vdmnexus.com/playground) - Zero-signup signed-inference console. Generates an ephemeral agent key in-browser, makes a sponsored x402-gated call, renders the live response and verifiable receipt card.
 
 
 ### Security & Ops
