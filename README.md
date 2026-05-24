@@ -1,6 +1,6 @@
-# Awesome x402
+# Awesome Agentic Commerce
 
-![Merit Logo](./merit-logo.webp)
+![Merit Logo](./merit-logo-agentic-commerce.png)
 
 Curated resources for the x402 ecosystem: specs, repos, standards, and community. Contributions welcome via pull requests.
 
