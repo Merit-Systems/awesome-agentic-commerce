@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [ThoughtProof](https://thoughtproof.ai) - Decision verification for AI agents. Three x402-gated endpoints: reasoning verification ([api.thoughtproof.ai](https://api.thoughtproof.ai)), plan-level verification ([verify.thoughtproof.ai](https://verify.thoughtproof.ai)), and pre-execution checkpoint ([sentinel.thoughtproof.ai](https://sentinel.thoughtproof.ai)). Registered as ERC-8004 Agent #37477 on Base.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -68,6 +69,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Faremeter (Typescript Facilitator, Middleware, and Examples)](https://github.com/faremeter/faremeter)
 - [x402-dotnet (Community)](https://github.com/michielpost/x402-dotnet)
 - [MCPay (Build and Monetize MCP servers. SDK, Infrastructure and Examples)](https://github.com/microchipgnu/mcpay)
+- [pot-cli / pot-sdk (ThoughtProof)](https://github.com/ThoughtProof/pot-cli) - Open-source CLI and TypeScript SDK for verifying AI agent reasoning and plans before settlement. Supports x402 payment to ThoughtProof verification endpoints. [npm: pot-cli](https://www.npmjs.com/package/pot-cli), [npm: pot-sdk](https://www.npmjs.com/package/pot-sdk).
 - [Bermuda (ZK-private x402)](https://www.bermudabay.xyz) - ZK-private HTTP payments for x402 using Noir proofs on Base. Adds sender privacy so agents can pay without exposing wallet state. ([Docs](https://docs.bermudabay.xyz/sdk/x402))
 - [x402-mcp package (Vercel)](https://github.com/ethanniser/x402-mcp)
 - [Gatefare MCP](https://github.com/gatefareio/mcp-server) — Marketplace MCP server for paid HTTP APIs. 13 tools across discovery, buyer (auto 402→sign→retry), and publisher domains. Non-custodial, USDC on Base. Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=gatefareio). Install: `npx -y @gatefare/mcp`. ([npm](https://www.npmjs.com/package/@gatefare/mcp))
