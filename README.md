@@ -138,6 +138,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Vercel x402 AI Starter](https://vercel.com/templates/ai/x402-ai-starter) - Full-stack Next.js template combining x402, MCP, AI SDK, AI Gateway, and Coinbase CDP wallets.
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [unlock-api](https://unlock-api.lewis-6d8.workers.dev) — Pay-per-unlock website fetcher; `POST /unlock` returns rendered body, screenshot, or XHR capture through a stealth browser + residential proxy. Only charges on successful unlock (`expect_status` / `expect_contains` check). $0.02 USDC per call on Base.
+- [pricing-matrix-api](https://pricing-matrix-api.lewis-6d8.workers.dev) — SaaS pricing page extractor; `POST /compare` returns a normalized tier matrix as JSON. 24h KV cache per URL. $0.10 USDC per call on Base.
+- [bill-negotiation-api](https://bill-negotiation-api.lewis-6d8.workers.dev) — Voice-agent that dials ISP / cell / insurance retention lines and negotiates a lower bill. `POST /negotiate`, flat $20 USDC per attempt on Base.
 
 
 ### Security & Ops
