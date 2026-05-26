@@ -179,3 +179,4 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+- [YIELD INTELLIGENCE](https://github.com/thebrierfox/intuitek-ace) — Passive income analysis MCP server with live US Treasury rates, portfolio yield calculator, and AI income optimizer. $1 USDC per call on Base via x402. Open MCP endpoint, no auth required. Also in the [official MCP Registry](https://registry.modelcontextprotocol.io/).
