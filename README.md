@@ -127,7 +127,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and wallets, with x402 pay-per-call endpoints on Base.
-- [Kraken Crypto Signals](https://signals.nsgoods.org/signals?pair=BTC/USD) - Pay-per-call multi-timeframe crypto trading signals (BUY/SELL/HOLD with confidence) from a live Kraken strategy. $0.01 USDC/call on Base via x402. Manifest at [/.well-known/x402](https://signals.nsgoods.org/.well-known/x402).
+- [Kraken Crypto Signals](https://signals.nsgoods.org) - Pay-per-call crypto trading signals for AI agents from a live multi-timeframe strategy. `GET /signals?pair=BTC/USD` ($0.01) returns BUY/SELL/HOLD + confidence for any active Kraken `*/USD` pair; `GET /signals/top` ($0.10) scans major pairs for the strongest signals. Returns 503 with no charge on data outage. USDC on Base via keyless PayAI facilitator. No accounts. ([x402 Manifest](https://signals.nsgoods.org/.well-known/x402)) ([GitHub](https://github.com/Nikoble1926/kraken-crypto-signals))
 - [Pinata – Pay to Pin on IPFS with x402](https://pinata.cloud/blog/pay-to-pin-on-ipfs-with-x402/)
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
