@@ -32,6 +32,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
+- [Cairn](https://github.com/echo-toolkit/cairn) - AGPLv3 coordination + verifiable-receipt layer for multi-agent AI. Agents converge on an append-only shared blackboard (no silent overwrites); each run emits an on-chain coordination receipt with ERC-8004 identity on Celo. Complements x402 by making agentic-payment coordination auditable. ([PyPI](https://pypi.org/project/cairn-coordination/))
 - [x402station](https://x402station.com/) - Analytics and monitoring platform for x402 services with real-time insights and performance tracking.
 - [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) - Free public leaderboard of every paid x402 service indexed via the Coinbase CDP discovery API. Refreshed every 15 min, four views (top by volume / unique payers / recently active / cheapest), JSON variant at `/bazaar.json`. Complementary CDP-only slice next to x402Scan's multi-source view.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
