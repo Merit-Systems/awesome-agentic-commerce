@@ -127,6 +127,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and wallets, with x402 pay-per-call endpoints on Base.
+- [Sivut SEC Crypto Filing Radar](https://pay.sivut.co) - Live x402/Base USDC API for SEC crypto-related filing radar and buyer packs. OpenAPI discovery at `/openapi.json`, free sample at `/api/public-data/sec-crypto-filings/sample`, paid buyer pack at `/api/public-data/sec-crypto-filings/buyer-pack`.
 - [Pinata – Pay to Pin on IPFS with x402](https://pinata.cloud/blog/pay-to-pin-on-ipfs-with-x402/)
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
