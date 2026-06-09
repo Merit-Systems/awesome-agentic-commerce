@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [Base Intel Search](https://base-intel-api.jakemaxsigal.workers.dev) - Pay-per-call web search for AI agents: ranked, de-duplicated results with source + date, plus top news. ~$0.015 USDC/call on Base via x402, no API key. [MCP server](https://www.npmjs.com/package/base-intel-search-mcp) available.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -138,6 +139,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Vercel x402 AI Starter](https://vercel.com/templates/ai/x402-ai-starter) - Full-stack Next.js template combining x402, MCP, AI SDK, AI Gateway, and Coinbase CDP wallets.
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [Base Intel Search (MCP)](https://github.com/jakemaxsigal-creator/base-intel-search-mcp) – An x402-gated `web_search` MCP tool that auto-pays the upstream `/search` API from the agent's own wallet (~$0.015 USDC/call on Base). One `npx` line (`npx -y base-intel-search-mcp`) to add live web search to any MCP agent. [Live endpoint](https://base-intel-api.jakemaxsigal.workers.dev/search)
 
 
 ### Security & Ops
