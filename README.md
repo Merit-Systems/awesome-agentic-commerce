@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [AceData Cloud](https://platform.acedata.cloud/x402) - Pay-per-call access to dozens of production AI APIs (OpenAI/Claude/Gemini chat, Google SERP, Flux/Midjourney/Nano-Banana image, Suno music, Veo/Sora/Kling video) with no account or API key. Multi-chain (Base, Solana, SKALE), `exact` + `upto` (metered) schemes. Discovery at [`/.well-known/x402`](https://api.acedata.cloud/.well-known/x402); SDK plugins for [TypeScript](https://www.npmjs.com/package/@acedatacloud/x402-client) and [Python](https://pypi.org/project/acedatacloud-x402/).
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -45,6 +46,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 on Stellar](https://developers.stellar.org/docs/build/agentic-payments/x402) - Stellar payment flow, compatible wallets, and facilitator options for x402 payments.
 - [PayAI Facilitator & Supported Networks](https://docs.payai.network/x402/quickstart#facilitator)
 - [Satoshi Facilitator](https://facilitator.bitcoinsapi.com/supported) - Independent x402 facilitator for Bitcoin-focused pay-per-call services with Base, Base Sepolia, Solana Mainnet, and Solana Devnet support.
+- [AceData Cloud Facilitator](https://facilitator.acedata.cloud/supported) - Production x402 facilitator supporting Base, Solana, and SKALE with both `exact` and `upto` (Permit2 metered) schemes.
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
