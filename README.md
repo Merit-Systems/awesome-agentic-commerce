@@ -89,6 +89,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
+- [interline](https://github.com/Choppaaahh/interline-routes) - Neutral, non-custodial MCP router with a rail-discovery layer: probe which rails a paid endpoint accepts before paying, then pay across them through one integration with a unified cross-rail receipt ledger. Three live rails — x402 USDC on EVM + Solana, and MPP on Tempo; rail-agnostic core so new rails drop in with no caller change. `uvx interline`. ([PyPI](https://pypi.org/project/interline/))
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
 - [HTTP 402 Payment Required (IANA Registry)](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml): canonical HTTP status-code registry entry for 402.
