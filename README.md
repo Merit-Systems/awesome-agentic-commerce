@@ -48,6 +48,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
+- [AsterPay Facilitator (EUR settlement)](https://x402.asterpay.io/v2/x402/supported) - EUR-native x402 facilitator for the EU. Verifies and settles USDC/EURC on Base, Ethereum, Polygon, Arbitrum and Optimism, with optional off-ramp to EUR via SEPA Instant, Know Your Agent (KYA) trust scoring, and Chainalysis sanctions screening. ([Docs](https://asterpay.io/docs), [.well-known/x402](https://asterpay.io/.well-known/x402.json))
 
 
 ### Open Source & SDKs
