@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [x402 Agent Store](https://store.agentexchange.work) - Pay-per-call data tools for AI agents: unique AI brand/token visibility (does AI recommend you? — GEO/citation scores), live Polymarket prediction-market odds, DeFi yields, US Treasury macro, and crypto prices. No keys or accounts; settle in USDC on Base. [MCP server](https://store.agentexchange.work/mcp) (installable in Claude Desktop & Cursor), [repo](https://github.com/rccola990-cloud/x402-agent-store), [free samples](https://store.agentexchange.work/samples).
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
