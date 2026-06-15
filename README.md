@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [AI Visibility Agent Store](https://store.agentexchange.work) - Pay-per-call x402 data services led by a novel AI-visibility SKU (does ChatGPT / Perplexity / Google AI recommend a brand? score 0-100 + the competitors AI names instead) plus cheap crypto, DeFi, US Treasury, GitHub, npm and Hacker News feeds. USDC on Base, no keys. OpenAPI + MCP + A2A agent card.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
