@@ -39,6 +39,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
+- [FiatDock](https://fiatdock.com) - Non-custodial marketplace where AI agents discover and pay for MCP services per call via x402 on Base. 3 MCP tools (`search_services` / `get_service` / `call_service`); each paid call settles directly buyer-wallet → seller-wallet, with the 1% platform fee taken as an on-chain split (0% for a seller's first 30 days) — never custodial. Sellers list free and keep 99%; Verified sellers pass a KYC + security scan. Also a non-custodial USDC↔bank on/off-ramp. Remote MCP `https://fiatdock.com/mcp` + [`fiatdock-mcp`](https://www.npmjs.com/package/fiatdock-mcp). ([What it is](https://fiatdock.com/mcp-marketplace.html))
+
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
