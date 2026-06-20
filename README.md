@@ -25,6 +25,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [x402station](https://x402station.com/) - Analytics and monitoring platform for x402 services with real-time insights and performance tracking.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
+- [Orbis](https://orbisapi.com) - x402 API marketplace with 2,000+ pay-per-call endpoints: crypto data, web search, social data, geo, AI generation, utilities, and more. Native Solana USDC support alongside Base. 400k+ settled payments on-chain. No API keys, no subscriptions. ([OpenAPI](https://orbisapi.com/openapi.json) | [Discovery](https://orbisapi.com/.well-known/x402) | [MCP](https://orbisapi.com/mcp))
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
