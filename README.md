@@ -124,6 +124,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 
 ### Example Apps
+- [Crest x402 Data](https://data.crestsystems.ai) - x402 agent profiling and crypto market data. Wallet intelligence (whale score, behavior cluster, x402 spend graph, risk) for profiling x402 buyers, plus prices, gas, DeFi, derivatives, NFTs, and DEX pairs. Pay-per-call USDC on Base via the Coinbase CDP facilitator, no API keys. ([Agent Card](https://data.crestsystems.ai/.well-known/agent.json) | [llms.txt](https://data.crestsystems.ai/llms.txt))
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
