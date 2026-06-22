@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [Magpie](https://x402.magpie.capital) - x402-native permissionless agent-lending protocol on Solana (HTTP 402 pay-per-call, no signup, no API key, zero custody — the service holds no keys; agents sign unsigned txs locally). An agent borrows SOL against its own memecoin (V1) or tokenized-stock/RWA (V3) collateral across 170+ tokens, arms self-owned in-vault take-profit/stop-loss exits (V4 — proceeds stay in the loan's vault, loan stays Active), and repays (borrower-signed). MCP server [`@magpieloans/magpie-mcp`](https://www.npmjs.com/package/@magpieloans/magpie-mcp) exposes pool state, simulate-borrow, conditional intents, and in-vault exits to Claude/Cursor/Windsurf/ChatGPT. Catalog at [`/.well-known/x402.json`](https://x402.magpie.capital/.well-known/x402.json). ([Repo](https://github.com/magpiecapital/magpie-x402))
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -89,6 +90,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
+- [@magpieloans/magpie-agent (npm)](https://www.npmjs.com/package/@magpieloans/magpie-agent) - TypeScript SDK for Magpie, the x402-native permissionless lending protocol on Solana. Typed one-liners let an autonomous agent borrow SOL against its own memecoin/RWA collateral, arm self-owned in-vault take-profit/stop-loss exits, and repay — all signed locally, zero custody (the service holds no keys). ([Repo](https://github.com/magpiecapital/magpie-x402))
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
 - [HTTP 402 Payment Required (IANA Registry)](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml): canonical HTTP status-code registry entry for 402.
