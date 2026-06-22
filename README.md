@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [Agent Payment Guard](https://github.com/lukekwan/agent-payment-guard) - Open-source x402 payment firewall for autonomous agents on Base. Enforces owner-controlled budgets and mandates, returns ALLOW/REVIEW/BLOCK decisions, supports human approval, signed reservations, transaction simulation, delivery evidence, merchant history, webhooks, MCP, and JavaScript/Python SDKs. ([Live](https://base-agent-preflight.bytoken2023.workers.dev/) | [npm](https://www.npmjs.com/package/agent-payment-guard) | [PyPI](https://pypi.org/project/agent-payment-guard/))
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
