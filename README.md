@@ -38,6 +38,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [GoCreative](https://api.gocreativeai.com) - Compliance, KYB & data APIs for AI agents: sanctions/PEP & OFAC crypto-wallet screening, KYB, company/contact enrichment, SEC/FRED/gov data, prediction markets and crypto/DeFi — 385 keyless pay-per-call endpoints, USDC on Base + Solana. [MCP server](https://api.gocreativeai.com/mcp).
+- [Omnicall](https://omnicall.gocreativeai.com) - Agent-tools gateway: 248 LLMs (GPT/Claude/Gemini/Grok/DeepSeek), image/video/voice/music generation, web search, 48-chain RPC, crypto/DEX/DeFi data — one keyless OpenAI-compatible endpoint, pay-per-call USDC. [MCP server](https://omnicall.gocreativeai.com/mcp).
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
