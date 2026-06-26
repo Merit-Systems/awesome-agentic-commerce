@@ -179,3 +179,14 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+
+## DDG Agent-Payable Services
+
+- [DDG Agent-Payable Services](https://agents.daedalusdevelopmentgroup.com) - AI-agent-native x402/direct-crypto services for checkout conformance, MCP/tool security audits, agent-discovery repair, buyer-agent smoke probes, browser proof artifacts, and repo context packs.
+  - AI discovery: https://agents.daedalusdevelopmentgroup.com/.well-known/ai
+  - OpenAPI: https://agents.daedalusdevelopmentgroup.com/openapi.json
+  - llms.txt: https://agents.daedalusdevelopmentgroup.com/llms.txt
+  - x402scan: https://www.x402scan.com/server/c3540307-0eb2-455d-90b6-a21f7d5a3792
+  - GitHub: https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services
+  - Rails: x402 (Base, Polygon, Arbitrum, World Chain, Solana USDC), direct_crypto_auto, direct_crypto_manual
+  - Direct crypto families: EVM/stablecoins, BTC, BCH, LTC, DOGE, SOL, TRX, XRP, XLM, ALGO, DOT, ZEC, XMR
