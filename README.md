@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- **[Strumly](https://strumly.suedeai.ai/agents)** — The only music oracle on x402. Canonical chord knowledge, song analysis, chord-progression transcription, and personalized practice plans for AI agents. No other music API exists in the x402 ecosystem. $0.99–$4.99 USDC/call on Base · $9.99 Stripe 24h day pass · 5 free calls/IP/day. Full discovery: [/.well-known/x402](https://strumly.suedeai.ai/.well-known/x402) · [OpenAPI](https://strumly.suedeai.ai/openapi.json) · [llms.txt](https://strumly.suedeai.ai/llms.txt). By [Suede Labs AI](https://suedeai.ai).
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
