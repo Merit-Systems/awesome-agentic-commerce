@@ -65,6 +65,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Solana Foundation Pay (x402/MPP CLI and MCP)](https://github.com/solana-foundation/pay) - Local payment layer for handling x402 payment challenges with wallet-authorized stablecoin signing.
 - [Pipegate (x402 + Payment Channels)](https://github.com/Dhruv-2003/pipegate)
 - [TrustBench](https://trustbench.io) - Non-custodial routing and audit layer on top of x402. Ed25519-signed receipts with on-chain settlement evidence, verifiable offline. Fail-safe paywall on Base via the Coinbase CDP facilitator. Verifier on npm: [`@trustbench/verify-receipt`](https://www.npmjs.com/package/@trustbench/verify-receipt).
+- [SolSigs ProofGuard](https://github.com/gra-kir/solsigs-proofguard) - Trust scoring, x402 receipt fields, and refund-ready evidence for AI agents paying Solana x402 endpoints. Live resource: [`/proofguard/evaluate`](https://solsigs.com/proofguard); listed on [x402scan](https://www.x402scan.com/server/e52b109e-420a-4e86-adf0-be7b5e12b302).
 - [thirdweb/x402 (Github)](https://github.com/thirdweb-dev/js/tree/main/packages/thirdweb/src/x402)
 - [Faremeter (Typescript Facilitator, Middleware, and Examples)](https://github.com/faremeter/faremeter)
 - [x402-dotnet (Community)](https://github.com/michielpost/x402-dotnet)
