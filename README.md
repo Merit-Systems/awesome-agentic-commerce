@@ -92,6 +92,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT.
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [ForeSeal Gate (@foreseal/gate)](https://github.com/0rkz/foreseal-gate) — MIT Express middleware that fronts any data endpoint with x402 USDC pay-per-call (Base) and stamps each paid response with an EIP-712 receipt over the exact bytes served, so a buying agent can check hash + signer before acting — authenticity + tamper-evidence, not data correctness. ([npm](https://www.npmjs.com/package/@foreseal/gate))
 
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
@@ -144,6 +145,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [ForeSeal Gate AML-receipt example](https://github.com/0rkz/foreseal-anchain-aml-receipt) – MIT runnable demo of verify-before-act on a paid mock AML screening call: the agent acts on the verdict only if the bytes are intact and signed by the provider's attester, failing closed on tampered, forged, or missing receipts — an integrity check on the verdict bytes, not a claim the screening is correct. Runs locally with a stand-in facilitator, no real USDC.
 
 
 ### Security & Ops
