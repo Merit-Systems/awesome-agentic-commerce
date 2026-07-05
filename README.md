@@ -29,10 +29,13 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Ecosystem
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
+- [TrustBoost](https://github.com/teodorofodocrispin-cmyk/trustboost) - PII sanitization API for autonomous AI agent pipelines: redacts sensitive data before LLM calls, LATAM PII types (RFC, CPF, CUIT), Proof of Sanitization on Solana. x402 micropayments, MCP server, MIT open source.
+- [VeraData](https://github.com/teodorofodocrispin-cmyk/veradata-public) - LATAM compliance API for AI agents: sanctions screening (OFAC+UN+EU+UK, 59k+ entries), KYB bundles for CO/MX/BR/CL/PE with EU AI Act Art.12/13 audit trail, and real-time central bank rates (TRM, TIIE, Selic, UF, dólar blue). x402 micropayments, MCP server available.
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
 - [x402station](https://x402station.com/) - Analytics and monitoring platform for x402 services with real-time insights and performance tracking.
+- [Intelica](https://api.intelica.dev) - Competitive intelligence API for AI agents: AI-powered market analysis, Intelica Moat Index (IMI) scoring, competitive graph (3,600+ nodes/edges), and autonomous webhook alerts. x402 micropayments ($0.05–$1.00 USDC), MCP server available.
 - [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) - Free public leaderboard of every paid x402 service indexed via the Coinbase CDP discovery API. Refreshed every 15 min, four views (top by volume / unique payers / recently active / cheapest), JSON variant at `/bazaar.json`. Complementary CDP-only slice next to x402Scan's multi-source view.
 - [gold-402](https://github.com/Haustorium12/gold-402) - Curated x402 directory by 24K Labs. 300+ handpicked entries across facilitators, SDKs, MCP servers, APIs, and tools, with editorial writeups and verified badges for production-confirmed services. Backed by a 29,000+ entry full catalog sourced from CDP Bazaar and Agentic.market.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
