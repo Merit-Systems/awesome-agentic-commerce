@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [PulseFeed](https://pulsefeed.dev/status) - Independent trust & safety oracle for x402: verify whether an endpoint is safe to pay before paying (~70% are dead/invalid) — liveness, reputation, scam/anomaly scan, on-chain receiver check. Also a live ecosystem observatory and daily "State of x402" report. npm: [pulsefeed-x402-guard](https://www.npmjs.com/package/pulsefeed-x402-guard), [pulsefeed-x402-ai-tools](https://www.npmjs.com/package/pulsefeed-x402-ai-tools) (Vercel AI SDK + LangChain), [pulsefeed-x402-mcp](https://www.npmjs.com/package/pulsefeed-x402-mcp).
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
