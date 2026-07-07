@@ -29,6 +29,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Ecosystem
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
+- [AgentOracle](https://agentoracle.co) - x402-settled verification and reputation layer for AI agents. Signed receipts with on-chain settlement evidence, verifiable offline. First entry in the ERC-8210 Receipt Profile Registry. Open receipt spec (MIT) at [TKCollective/agentoracle-receipt-spec](https://github.com/TKCollective/agentoracle-receipt-spec) with multiple independent implementers; Python verifier on PyPI: [`agentoracle-receipt-verify`](https://pypi.org/project/agentoracle-receipt-verify/).
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
