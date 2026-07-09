@@ -24,6 +24,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 ### Ecosystem
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [x402station](https://x402station.com/) - Analytics and monitoring platform for x402 services with real-time insights and performance tracking.
+- [Vindex](https://api.vindexapi.dev) - x402 vehicle-data API: VIN decode with factory warranty terms, recalls, known-issues/reliability, and US & Canada purchase-cost estimates (NHTSA + Transport Canada). $0.01/call, USDC on Base. [MCP server](https://www.npmjs.com/package/vindex-mcp) available.
+- [Isocast](https://api.isocast.dev) - x402 per-signal Polymarket weather-market data: fires when a city's daily-high temperature crosses into a new Polymarket bucket, returning the market URL and live bucket odds across 37 cities. From $0.01/call, USDC on Base. [MCP server](https://www.npmjs.com/package/isocast-mcp) available.
+- [Moltalyzer](https://api.moltalyzer.xyz) - x402 Polymarket and AI-agent-community intelligence: order-book microstructure movers, whale hold-to-resolution calibration, and multi-source digests. $0.01–$0.05/call, USDC on Base. [MCP server](https://www.npmjs.com/package/moltalyzer-mcp) available.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
 
 ### Facilitators & Networks
