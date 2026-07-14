@@ -49,6 +49,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
+- [AlgoVoi Self-Hosted x402 Facilitator](https://docs.algovoi.co.uk/x402-self-host-guide) - Self-hosted x402 facilitator with operator custody across eight chains (Algorand, Base, Arc, Tempo, Stellar, Solana, Hedera, VOI), no third-party facilitator in the settlement path.
 
 
 ### Open Source & SDKs
@@ -94,6 +95,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [algovoi-jcs-conformance-vectors](https://github.com/chopmob-cloud/algovoi-jcs-conformance-vectors) - Apache-2.0 conformance vector sets for JCS (RFC 8785) canonicalisation of x402, AP2, A2A and MPP receipt anchors, cross-validated across eight independent JCS implementations in eight languages.
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
 - [HTTP 402 Payment Required (IANA Registry)](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml): canonical HTTP status-code registry entry for 402.
@@ -108,6 +110,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [ERC-3009 Forwarding](https://github.com/TheGreatAxios/eip3009-forwarder): forwarding contract extending meta-transactions with EIP-721 signatures to any ERC-20 on any network
 - [x402 Extensions Overview](https://docs.x402.org/extensions/overview): official guide to x402 resource server and facilitator extension points
 - [A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402): specification, libraries, and examples for adding on-chain x402 payments to Agent-to-Agent services
+- [JCS Canonicalisation Discipline for Agentic-Payment Receipts (draft-hopley)](https://datatracker.ietf.org/doc/draft-hopley-x402-canonicalisation-jcs-v1/) - IETF draft specifying an RFC 8785 (JCS) canonicalisation discipline so x402, AP2, A2A and MPP payment receipts hash identically and verify offline.
 
 ### Tutorials & Guides
 - [Alchemy - What is x402?](https://www.alchemy.com/blog/how-x402-brings-real-time-crypto-payments-to-the-web) - Developer explainer covering the HTTP 402 payment flow, agent use cases, and x402 Foundation context.
