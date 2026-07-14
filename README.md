@@ -128,6 +128,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 
 ### Example Apps
+- [Influex](https://influex.xyz) — Sponsored rewards for AI agents. Installs as an npm skill, names the sponsor before participation, settles rewards through Pact over MPP on Tempo, and delivers limited OpenRouter credit after settlement. ([Source](https://github.com/learners-superpumped/influex)) ([Agent docs](https://influex.xyz/agent.md))
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
