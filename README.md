@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [afriref](https://afriref.dev) - Pan-African government reference data API for agents: central-bank policy rates, VAT, minimum wages and public holidays for South Africa, Nigeria and Kenya, every value cited to its official gazette or central-bank source. $0.005 USDC per call via x402 on Base (CDP-facilitated), OpenAPI + Bazaar discovery, HMAC-signed change webhooks. ([x402scan](https://x402scan.com/server/5f5e63dc-454c-424f-8ce2-24335e406136))
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
