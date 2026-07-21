@@ -58,6 +58,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 TypeScript SDKs](https://github.com/x402-foundation/x402/tree/main/typescript)
 - [x402 Python SDK](https://github.com/x402-foundation/x402/tree/main/python/x402) - Official Python client/server, facilitator, and MCP helpers.
 - [x402 Python SDK (PyPI)](https://pypi.org/project/x402/) - Official Python package for client, server, facilitator, and framework integrations.
+- [preflight402](https://github.com/duskwire/preflight402) - Free trust/health preflight for x402 endpoints (liveness, 402 handshake, price sanity, ERC-8004 identity + Sybil-filtered reputation) as one `trust-preview.v1` verdict, over REST + MCP. Ships `preflight402-guard`, a drop-in client that auto-preflights and blocks bad payments before the x402 SDK signs. Python, MIT.
 - [x402 Go SDK](https://github.com/x402-foundation/x402/tree/main/go) - Official Go client/server, facilitator, and MCP package.
 - [x402 Java SDK](https://github.com/x402-foundation/x402/tree/main/java) - Official Java implementation for JVM services.
 - [x402-analytics (NPM)](https://www.npmjs.com/package/x402-analytics) - Analytics wrapper for x402 payments with monitoring and insights.
@@ -150,6 +151,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [preflight402 – validate before you pay](https://preflight402.ironshell.io) - Free public service + `preflight402-guard` client that check an x402 endpoint's health, 402-handshake compliance, price sanity, and Sybil-filtered on-chain reputation, returning a proceed/caution/avoid verdict so an agent can refuse a dead, spoofed, or fake-reputation payee before signing.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
