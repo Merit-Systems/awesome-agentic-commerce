@@ -185,3 +185,4 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+- [read402](https://read402.fly.dev) — Pay-per-call URL to clean Markdown extraction (Readability + Turndown), $0.02 USDC on Base mainnet via x402.org facilitator, no signup or API key. ([GitHub](https://github.com/wxtest-prog/read402))
