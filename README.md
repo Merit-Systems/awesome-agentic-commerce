@@ -39,6 +39,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [Aegis by Boris Inc](https://aegis.borisinc.com) - Trust registry and payment router for x402. Scores indexed services on measured behaviour — liveness, 402 challenge validity, on-wire vs registered price honesty, paid-delivery spot checks — then routes payments to them with trust-ranked failover and auth-then-capture, so a failed delivery is not charged. 2,463 services and 1.47M probes as of 2026-07-27. Free [registry.json](https://aegis.borisinc.com/registry.json) and `/discover`.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -94,6 +95,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [aegis-buy](https://github.com/Donk338/aegis-buy) - Trust-gated x402 buyer client with a local spend policy: per-call, per-day and lifetime USD caps plus allow/deny domains, all enforced client-side and free before any payment. `procure(need, budget)` picks and pays a service under a hard budget and returns an Ed25519-signed receipt. Python and JS. ([PyPI](https://pypi.org/project/aegis-buy/) | [npm](https://www.npmjs.com/package/aegis-buy))
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
 - [HTTP 402 Payment Required (IANA Registry)](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml): canonical HTTP status-code registry entry for 402.
