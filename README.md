@@ -37,7 +37,6 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [gold-402](https://github.com/Haustorium12/gold-402) - Curated x402 directory by 24K Labs. 300+ handpicked entries across facilitators, SDKs, MCP servers, APIs, and tools, with editorial writeups and verified badges for production-confirmed services. Backed by a 29,000+ entry full catalog sourced from CDP Bazaar and Agentic.market.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
-- [x402-seller](https://x402-seller-m8nx.onrender.com/) - Rug protection for AI trading agents: composite honeypot score (static analysis fused with live buy/sell simulation), self-collected liquidity-drain detector, EVM + Solana. Keyless pay-per-call in USDC on Base, free demo + [public self-graded track record](https://x402-seller-m8nx.onrender.com/track-record), [MCP server](https://github.com/wyattpalm2-eng/x402-seller) included.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
@@ -145,7 +144,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
-
+- [x402-seller](https://x402-seller-m8nx.onrender.com) - Rug protection and market intelligence for autonomous trading agents. 22 pay-per-call endpoints on Base, USDC, no API key or signup. `/vet` fuses contract security, a live buy/sell simulation, and a self-collected liquidity-drain time series into one go/no-go verdict.
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
@@ -154,6 +153,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [x402-seller Rug-Scorer Track Record](https://x402-seller-m8nx.onrender.com/accuracy) - A live x402 service grading its own rug predictions against real outcomes 6h later and publishing hits, misses AND false alarms, with the grading formula stated and the raw ledger at `/track-record`. Notably publishes that its own contract-security verdict currently underperforms its base rate.
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
