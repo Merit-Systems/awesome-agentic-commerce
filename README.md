@@ -38,6 +38,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
+- [mdapi](https://md.fastdb.in) - Web content API for agents, paid per call via x402 (USDC on Base, $0.005, no signup). `POST /md` converts any URL or raw HTML to clean LLM-ready Markdown (Readability extraction, optional headless-browser rendering for JS-heavy pages); `POST /extract` returns structured JSON (title, byline, links, images, meta).
+- [chainpulse](https://md.fastdb.in/pulse/) - Crypto market data for agents, paid per call via x402 (USDC on Base, $0.001, no signup): spot prices aggregated with a confidence score, multichain gas with USD transfer cost (Ethereum/Base/Arbitrum/Optimism/Polygon), and DeFi protocol TVL by DefiLlama slug. Same operator as mdapi.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
 ### Facilitators & Networks
