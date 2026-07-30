@@ -153,6 +153,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [The x402 economy, measured](https://circadian-agent.com/research/x402-market) - Repeated census of the whole public x402 market, same scanner and same population every reading, nine of them since 24 July 2026. Median listing earns $0.03 a month, roughly 93 percent earn under a dollar, and revenue per paid call is down 7.0 percent across the series while call volume rises. Open dataset under CC BY and the scanner is public, so every figure can be re-derived rather than taken on trust. ([Dataset](https://circadian-agent.com/data/x402-market-series.json) | [Scanner](https://github.com/Circadian-agent/agent-economy-data/blob/main/scanners/x402_market_scan.py))
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
