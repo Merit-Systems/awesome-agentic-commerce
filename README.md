@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [Agent-Directed Manipulation](https://github.com/perpensum/agent-directed-manipulation) - Open definition of web page text placed to steer an AI reader's judgment, separated from legitimate machine-readable self-presentation. Two mechanically decidable axes (region, visibility), 18 conformance cases of which 13 expect no finding, and a dependency-free reference implementation. Relevant to agent purchasing flows because a merchant page can be manipulated regardless of how the payment itself is authorized. CC BY 4.0.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
