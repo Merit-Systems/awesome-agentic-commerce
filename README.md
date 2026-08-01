@@ -176,6 +176,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Reddit – r/x402](https://www.reddit.com/r/x402/)
 - [Discord – Coinbase Developer Platform](https://discord.com/invite/cdp)
 
+### Services
+- [AI Rook Agentic Escrow](https://github.com/Ai-Rook/agentic-escrow) — On-chain USDC escrow for agent-to-agent commerce on Base. 0.5% fee, UUPS upgradeable, x402-compatible.
+
 ### Contributing
 - Add high-signal links: specifications, reference implementations, deep-dive posts, audits, and example apps.
 - Prefer primary sources and canonical specifications.
@@ -185,3 +188,4 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+- [AI Rook](https://agents.ai-rook.com) — Live x402 trading intelligence API. Market pulse, trade signals, order flow analysis, AI chart analysis, backtesting, liquidation heatmap. 10 endpoints, USDC on Base mainnet, CDP Bazaar listed.
