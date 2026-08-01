@@ -145,6 +145,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
+- [token-intel](https://nexus-zero.xyz) — Pay-per-call Solana token rug-risk API. `GET /v1/intel?mint=<mint>` returns a composite verdict (CLEAN→RUGGED) with **LP-lock depth** (per-pool TVL, locked %, burn %) and **top-10 holder-lock status** from three weighted sources (RugCheck + GoPlus + on-chain), with hard rug overrides. $0.01 USDC/call, Solana mainnet, PayAI facilitator, no API key. MCP server at `/mcp` (`get_token_intel`).
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
