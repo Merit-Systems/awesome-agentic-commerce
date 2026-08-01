@@ -153,6 +153,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [x402 Bazaar Full-Registry Demand Survey](https://github.com/rikocr8orh8/x402-bazaar-survey) - Analysis of all 14,865 listings in Coinbase's x402 Bazaar registry: only 3.5% show organic repeat demand (≥3 unique payers, ≥3 calls/payer over 30 days), top-10 sellers take 89% of it, and a large share of raw payer-count volume is one-call-per-wallet pattern rather than repeat usage. Reproducible method + scripts, not a live dashboard.
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
