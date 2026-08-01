@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [Blackwall](https://x402.blackwalltier.com/) - Pre-signature payment-risk oracle: returns GO / HOLD / STOP before an agent signs an x402 payment, from counterparty reputation, price-anomaly (vs the counterparty's own per-payer median), and OFAC sanctioned-address screening. Verdict only, never custody. Live on Base; also an MCP server.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
