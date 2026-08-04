@@ -39,6 +39,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- - [Vedetta](https://vedetta.dethboy.com) - Pay-per-call market intelligence API for AI agents, based on Korra (korra.finance). 20 x402 endpoints (sentiment-vs-price divergence verdicts, live analyst answers, falsifiable predictions, screeners, market pulse) across crypto, US equities, and macro. $0.005–$0.09 USDC per call on Base or $SOL, no signup or API keys, settles only on 2xx. Verifiable call-by-call track record at `/v1/track-record`.
+
+Descriptive research, not financial advice.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -144,6 +147,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- - [Vedetta](https://vedetta.dethboy.com) - Pay-per-call market intelligence API for AI agents, based on Korra (korra.finance). 20 x402 endpoints (sentiment-vs-price divergence verdicts, live analyst answers, falsifiable predictions, screeners, market pulse) across crypto, US equities, and macro. $0.005–$0.09 USDC per call on Base, no signup or API keys, settles only on 2xx. Verifiable call-by-call track record at `/v1/track-record`.
 
 
 ### Security & Ops
