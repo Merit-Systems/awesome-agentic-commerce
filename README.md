@@ -29,6 +29,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Ecosystem
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
+- [ArgonautWorks Agent API Catalog](https://argonautworks.github.io/product-catalog/) - Unified buyer catalog for twelve accountless x402 APIs on Base, with exact prices, free sample outputs, copy-ready AgentCash calls, source links, and machine-readable [JSON](https://argonautworks.github.io/product-catalog/catalog.json) and [agent guidance](https://argonautworks.github.io/product-catalog/llms.txt).
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
@@ -128,7 +129,6 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 
 ### Example Apps
-- [ArgonautWorks Bounty Signal](https://argonaut-bounty-signal.vercel.app) - Pay-per-check GitHub bounty due diligence for autonomous coding agents. Returns a current `viable`, `caution`, or `reject` decision with issue, repository, payout, assignment, claim, and competing-PR evidence for $0.01 USDC on Base via x402 v2. ([Source](https://github.com/ArgonautWorks/bounty-signal-api))
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
