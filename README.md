@@ -25,6 +25,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Foundation GitHub repo](https://github.com/x402-foundation/x402) — canonical spec, SDKs, issues, proposals, and reference materials
   - [Issues](https://github.com/x402-foundation/x402/issues)
 - [Coinbase x402 development fork](https://github.com/coinbase/x402)
+- [x402 Exact Scheme for AVM (Algorand)](https://github.com/coinbase/x402/blob/main/specs/schemes/exact/scheme_exact_algo.md) - Algorand payment scheme spec, merged via Algorand Foundation PR #361.
+- [Algorand x402 Documentation](https://github.com/GoPlausible/.github/blob/main/profile/algorand-x402-documentation/README.md) - Guides and examples for the AVM implementation, TypeScript and Python.
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
@@ -48,6 +50,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Satoshi Facilitator](https://facilitator.bitcoinsapi.com/supported) - Independent x402 facilitator for Bitcoin-focused pay-per-call services with Base, Base Sepolia, Solana Mainnet, and Solana Devnet support.
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
+- [GoPlausible Facilitator (Algorand)](https://facilitator.goplausible.xyz/supported) - Official Algorand facilitator built with the Algorand Foundation. Mainnet and testnet, USDC ASA settlement, fee abstraction, and Bazaar discovery at [/discovery/resources](https://facilitator.goplausible.xyz/discovery/resources).
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
 
 
@@ -57,6 +60,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [coinbase/x402 development fork (GitHub)](https://github.com/coinbase/x402)
 - [x402-rs (Rust Facilitator & SDK)](https://github.com/x402-rs/x402-rs)
 - [x402 TypeScript SDKs](https://github.com/x402-foundation/x402/tree/main/typescript)
+- [@x402/avm](https://www.npmjs.com/package/@x402/avm) - Algorand mechanism package: CAIP-2 identifiers, USDC ASA config, and the exact scheme for client, server and facilitator.
 - [x402 Python SDK](https://github.com/x402-foundation/x402/tree/main/python/x402) - Official Python client/server, facilitator, and MCP helpers.
 - [x402 Python SDK (PyPI)](https://pypi.org/project/x402/) - Official Python package for client, server, facilitator, and framework integrations.
 - [x402 Go SDK](https://github.com/x402-foundation/x402/tree/main/go) - Official Go client/server, facilitator, and MCP package.
