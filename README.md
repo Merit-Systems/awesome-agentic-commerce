@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [TBS Digital x402](https://x402.tbs-digital.com/llms.txt) - Agent-payable weather/climate (9 endpoints) and company-data (SIREN / EU VAT / LEI entity resolution for France 2026 e-invoicing) APIs on Base mainnet, USDC via x402 v2 (CDP facilitator). No API key or signup; failed requests never charged. ([llms.txt](https://x402.tbs-digital.com/llms.txt))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
