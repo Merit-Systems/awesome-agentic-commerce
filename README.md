@@ -28,10 +28,10 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
-- [Token Risk](https://5-9-107-124.nip.io) - Read-only Base and Ethereum
-  contract-risk API for agents, paid per call in Base USDC through x402.
-  Reports bytecode, upgradeability, owner/admin, mint, pause, blacklist, fee,
-  and honeypot indicators; no API key or signup.
+- [Token Risk & DeFi Pool Intelligence](https://5-9-107-124.nip.io) - Read-only
+  risk APIs for agents: [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
+  ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
+  ($0.02 USDC), paid per call on Base through x402 with no API key or signup.
   ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
   [OpenAPI](https://5-9-107-124.nip.io/openapi.json))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
