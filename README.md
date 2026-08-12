@@ -52,6 +52,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Open Source & SDKs
+- [pcrzero-mcp](https://github.com/Scytalex-LLC/pcrzero-mcp) — MCP server to issue and independently verify PCRZERO receipts (`npx -y @scytalex-llc/pcrzero-mcp`). Official registry `com.pcrzero/mcp`. Spec: [pcrzero.com/spec](https://pcrzero.com/spec).
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
 - [coinbase/x402 development fork (GitHub)](https://github.com/coinbase/x402)
@@ -107,6 +108,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [ERC-3009 Forwarding](https://github.com/TheGreatAxios/eip3009-forwarder): forwarding contract extending meta-transactions with EIP-721 signatures to any ERC-20 on any network
 - [x402 Extensions Overview](https://docs.x402.org/extensions/overview): official guide to x402 resource server and facilitator extension points
 - [A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402): specification, libraries, and examples for adding on-chain x402 payments to Agent-to-Agent services
+- [Inference Delivery Receipt Format (v1)](https://github.com/Scytalex-LLC/pcrzero-receipt-spec) — vendor-neutral spec for a content-bound, dual-signed inference receipt; payment binding (x402 and similar) lives outside the signed body. Mirror: [pcrzero.com/spec](https://pcrzero.com/spec)
 
 ### Tutorials & Guides
 - [AgentCash - Sell to agents](https://agentcash.dev/docs/sell-to-agents)
