@@ -28,6 +28,14 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [CapGain Safety & Work Artifacts](https://5-9-107-124.nip.io) - Read-only
+  APIs for agents: [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
+  ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
+  ($0.02 USDC), plus machine-buyable invariant tests ($0.03), repository reviews
+  ($0.05), and protocol research ($0.03), paid per call on Base through x402
+  with no API key or signup.
+  ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
+  [OpenAPI](https://5-9-107-124.nip.io/openapi.json))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
