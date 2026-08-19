@@ -131,6 +131,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
+- [Base Daily Brief](https://basedailybrief.vercel.app) — Daily curated bulletin from the Base ecosystem, gated by x402 on Base Mainnet. $0.01 USDC per bulletin, $0.25 USDC for 30-day subscription. MCP server at `/mcp`. Agent card at `/.well-known/agent-card.json`. Builder Code bc_2iax4m4l (ERC-8021 verified).
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and wallets, with x402 pay-per-call endpoints on Base.
 - [Pinata – Pay to Pin on IPFS with x402](https://pinata.cloud/blog/pay-to-pin-on-ipfs-with-x402/)
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
