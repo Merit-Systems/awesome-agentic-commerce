@@ -144,6 +144,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [x402donghang Agent APIs](https://x402donghang.duckdns.org/x402/) — Pay-per-call multi-model AI chat (Grok 4.5 High, DeepSeek V4 Pro/Flash, GLM 5.2, Qwen 3.8 Max, Claude Sonnet 4.6) plus live crypto radar, bilingual crypto brief, and URL/text summarization. USDC on Base/Solana. No API keys.
 
 
 ### Security & Ops
