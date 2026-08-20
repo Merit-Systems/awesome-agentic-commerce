@@ -29,6 +29,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Ecosystem
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
+- [Grant Search](https://grant-search.46-224-157-88.sslip.io) - Search current grants and portfolio changes with official source links via x402 for $0.02 per search or $0.12 per batch scan.
+- [OSHA Search](https://osha-search.46-224-157-88.sslip.io) - Search official U.S. OSHA inspection records by establishment, state, date, and violation status via x402 for $0.02 per search.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
