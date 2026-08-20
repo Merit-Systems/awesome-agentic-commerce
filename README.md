@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) - Deterministic payment policy enforcement for AI agents: pre-action gate enforcing budgets, allowlists, denylists, rate limits, and signed Ed25519 payment mandates with zero LLM in the decision path. Tamper-evident SHA-256 chained audit ledger; official MCP server on the Model Context Protocol Registry. Works alongside x402 and A2A payment flows.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
