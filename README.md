@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [fingers](https://fingersai.co) - The honest trust index for x402. Check who you're paying before your agent pays. A free pre-payment gate returns proceed / caution / do_not_proceed with the evidence behind it (scam and drain flags, one-hop taint, demand concentration, asset check), plus a trust index ranked by real payers and per-merchant profiles. Deep report available via x402. [MCP](https://fingersai.co/mcp) | [OpenAPI](https://fingersai.co/openapi.json)
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
