@@ -185,3 +185,4 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+- [KHOTEM](https://khotem.com) — Cryptographic witness for AI agents. x402 v2 direct payments (USDC, Base). 8/8 endpoints, ERC-8004 agent #68748. [Repo](https://github.com/fortikripto/khotem-witness) 
