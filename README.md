@@ -136,6 +136,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
 - [Pinata jetson-x402 (Code)](https://github.com/PinataCloud/jetson-x402)
+- [Agent Failure Archive](https://desktop-ai2ata5-1.tailfeb765.ts.net/afa/) - Pay-per-call archive of 186 production post-mortems from 8 months of running a multi-session AI agent system: silent cron deaths, repairs wired to signals nobody consumes, watchers exiting 0 after their session expired. Each case has symptom, root cause, fix and prevention; 174 carry measured evidence. $0.01-$1.00 USDC on Base via a keyless facilitator, Bazaar discovery on every 402, free `/sample` and `/llms.txt`. ([GitHub](https://github.com/HanbeenMoon/agent-failure-archive))
 - [x402 Example Gallery (GitHub)](https://github.com/coinbase/x402/tree/main/examples)
 - [Cloudflare Agents x402 Example](https://github.com/cloudflare/agents/tree/main/examples/x402) – Official example showing how to gate Cloudflare Agents endpoints with x402 payments.
 - [x402 Analytics Examples](https://github.com/RemsLabs/x402-analytics-examples) - Practical examples demonstrating x402-analytics usage with buyer and seller implementations.
