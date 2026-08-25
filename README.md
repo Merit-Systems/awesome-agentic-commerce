@@ -145,6 +145,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
+- [OpusHunter API](http://32.197.197.147:4021) - Pay-per-request utility endpoints for agents over x402 with USDC settlement on Base: secret scanning ($0.003), agent config generation ($0.002), URL check with response time ($0.001), summarization ($0.005), and JSON validation ($0.001). No signup or API keys; free JSON catalog at the root.
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
