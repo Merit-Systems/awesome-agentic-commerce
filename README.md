@@ -93,7 +93,6 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
 
-- [ox402-utils](https://treating-arcade-overall-enough.trycloudflare.com) — 57 paid tools for AI agents via x402 (USDC on Base): research, security, media, speech, external APIs. MCP server ready. ([MCP](https://treating-arcade-overall-enough.trycloudflare.com/mcp402/) | [GitHub](https://github.com/Hasned-spec/ox402-utils) | [Discovery](https://treating-arcade-overall-enough.trycloudflare.com/.well-known/x402))
 
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
@@ -188,4 +187,5 @@ This list is offered under CC0; see upstream specs for their respective licenses
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
 
-- [ox402-utils](https://treating-arcade-overall-enough.trycloudflare.com) - 88 paid tools for AI agents via x402 (USDC on Base): AI image gen, rewrite/translate, resume parser, PDF tools, research, security, media, speech (Kokoro TTS). MCP server at /mcp402/. Free tier: 5 calls/IP.
+
+- [ox402-utils](https://deviant-oils-guardian-coating.trycloudflare.com) - 87 paid micro-utilities for AI agents via x402 (USDC on Base): research/web, PDF+OCR, speech (Kokoro neural TTS, Whisper STT), security recon, dev tools, media. Free trial: 10 calls/IP. MCP server at /mcp402/. SDK: POST /x402/paid/<tool> with x402 payment.
