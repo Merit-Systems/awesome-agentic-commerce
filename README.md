@@ -39,7 +39,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
-- [M0 Email Verification](https://m0.aiverall.com) - Pre-flight email validation for lead-enrichment agents: RFC-shaped syntax check + live domain DNS resolution before spending money enriching, contacting, or storing a lead. $0.005 USDC per call, x402 v2, Base mainnet, no API key. ([OpenAPI](https://m0.aiverall.com/openapi.json))
+- [M0 URL Extraction](https://m0.aiverall.com) - `POST /v1/extract {"url":"..."}` -- fetch a public URL, get back clean machine-consumable text. $0.002 USDC per call, x402 v2, Base mainnet, no API key. Also exposes email verification ($0.005) and a lead-validation bundle ($0.015). ([OpenAPI](https://m0.aiverall.com/openapi.json))
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
