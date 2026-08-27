@@ -63,6 +63,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Java SDK](https://github.com/x402-foundation/x402/tree/main/java) - Official Java implementation for JVM services.
 - [x402-analytics (NPM)](https://www.npmjs.com/package/x402-analytics) - Analytics wrapper for x402 payments with monitoring and insights.
 - [x402-Solana (Community)](https://github.com/8bitsats/x402-Solana)
+- [solana-x402 (npm)](https://github.com/SaylorInnovations/solana-x402) — Zero-dependency x402 resource server for Solana. Self-verified settlement (USDC/USDT/native SOL) with no facilitator or fee; optional CDP and/or PayAI facilitator settlement layered on top for Base and stock x402 clients, with automatic CDP Bazaar discoverability for any resource carrying an `outputSchema`. Extracted from a production deployment. MIT.
 - [Solana Foundation Pay (x402/MPP CLI and MCP)](https://github.com/solana-foundation/pay) - Local payment layer for handling x402 payment challenges with wallet-authorized stablecoin signing.
 - [Pipegate (x402 + Payment Channels)](https://github.com/Dhruv-2003/pipegate)
 - [TrustBench](https://trustbench.io) - Non-custodial routing and audit layer on top of x402. Ed25519-signed receipts with on-chain settlement evidence, verifiable offline. Fail-safe paywall on Base via the Coinbase CDP facilitator. Verifier on npm: [`@trustbench/verify-receipt`](https://www.npmjs.com/package/@trustbench/verify-receipt).
