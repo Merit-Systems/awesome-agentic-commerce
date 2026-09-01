@@ -37,6 +37,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [gold-402](https://github.com/Haustorium12/gold-402) - Curated x402 directory by 24K Labs. 300+ handpicked entries across facilitators, SDKs, MCP servers, APIs, and tools, with editorial writeups and verified badges for production-confirmed services. Backed by a 29,000+ entry full catalog sourced from CDP Bazaar and Agentic.market.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
+- [openfang-rail](https://rail.akrivis.in) - Deterministic business-identity validation (IBAN, LEI, VAT, UK company number) and rental due-diligence for AI agents. Remote MCP + REST, signed offline-verifiable receipts on every result, free tier, x402 USDC-on-Base per call. ([MCP](https://rail.akrivis.in/mcp) | [Discovery](https://rail.akrivis.in/.well-known/x402.json) | [GitHub](https://github.com/89rat/openfang-rail))
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
@@ -92,6 +93,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT.
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [x402-registry](https://github.com/89rat/x402-registry) - Permissionless registry of MCP/x402 services with crawl-verified sha256 snapshots and MCP-native search, plus x402-payer, a buyer-side MCP client that auto-handles the 402 payment dance.
 
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
