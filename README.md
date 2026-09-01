@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [0mod HTTP 402 API Gateway](https://0mod.com) - Edge HTTP 402 API gateway using x402 micropayments on Base USDC (stealth web fetch, PII redaction, RAG shrink, RDAP domain check, DEX pricing, sentiment). ([MCP](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit](https://github.com/zeromodern/agentkit-provider-0mod))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
@@ -52,6 +53,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Open Source & SDKs
+- [@zeromodern/mcp-server-0mod](https://github.com/zeromodern/mcp-server-0mod) - MCP server for the 0mod HTTP 402 Gateway on Base USDC.
+- [@zeromodern/eliza-plugin-0mod](https://github.com/zeromodern/eliza-plugin-0mod) - ElizaOS plugin for 0mod HTTP 402 API Gateway utilities on Base USDC.
+- [@zeromodern/agentkit-provider-0mod](https://github.com/zeromodern/agentkit-provider-0mod) - Coinbase AgentKit action provider for 0mod HTTP 402 gateway tools.
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
 - [coinbase/x402 development fork (GitHub)](https://github.com/coinbase/x402)
