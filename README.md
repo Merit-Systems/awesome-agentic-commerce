@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [PLEXUS Intelligence API](https://plexus-public-production.up.railway.app) — 163 pay-per-call x402 endpoints: US federal regulatory data (EPA, SEC, FEC, OSHA, FDA, CourtListener, Congress.gov, GLEIF, SAM.gov, WorldBank, and 15+ more), 12 AI reasoning engines, and 5 composite intelligence products (Company Risk, Political Intel, Supply Chain Risk). Base + Solana. MCP: `thalamic/plexus-intelligence`. ([Manifest](https://plexus-public-production.up.railway.app/.well-known/x402)) ([OpenAPI](https://plexus-public-production.up.railway.app/openapi.json))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
