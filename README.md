@@ -131,6 +131,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
+- [Solana Lens](https://autosophia.io) - Read-only Solana MCP server for trading/monitoring agents: token risk screening, wallet inspection, transaction simulation, priority-fee pricing. $0.02 USDC per call via x402 on Solana mainnet, no account or API key.
+- [Agent Video](https://autosophia.io) - Script-to-video MCP server: narrated 1080p video with stock footage and burned-in subtitles from a text script. $0.60 USDC per video via x402 on Solana mainnet, no account or API key.
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and wallets, with x402 pay-per-call endpoints on Base.
 - [Pinata – Pay to Pin on IPFS with x402](https://pinata.cloud/blog/pay-to-pin-on-ipfs-with-x402/)
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
