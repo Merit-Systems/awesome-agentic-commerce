@@ -45,6 +45,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
 - [x402 on Stellar](https://developers.stellar.org/docs/build/agentic-payments/x402) - Stellar payment flow, compatible wallets, and facilitator options for x402 payments.
 - [PayAI Facilitator & Supported Networks](https://docs.payai.network/x402/quickstart#facilitator)
+- [SPX GEX & Options Intelligence API](https://gexorbv1-production.up.railway.app) - Real-time SPX gamma exposure, dealer positioning, gamma flip (raw + smoothed), and options intelligence (IV, expected move, max pain, pin risk) for AI agents, priced per-call in USDC on Base ($0.02-$0.05). Free summary tier lets agents evaluate freshness/confidence before paying for real-time data; every response includes source, methodology version, and data-age metadata.
 - [Satoshi Facilitator](https://facilitator.bitcoinsapi.com/supported) - Independent x402 facilitator for Bitcoin-focused pay-per-call services with Base, Base Sepolia, Solana Mainnet, and Solana Devnet support.
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
