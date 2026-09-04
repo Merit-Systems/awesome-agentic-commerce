@@ -38,6 +38,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
+- [Liquid Gas Sponsor](https://api.liquidagent.ai/v1/gas) - ERC-4337 paymaster on Base paid per operation in USDC over x402 (from $0.03): a wallet holding USDC and no ETH can transact. One endpoint serves smart-wallet SDKs (ERC-7677) and plain wallets (EIP-7702); public usage stats at `/v1/gas/stats`.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
 ### Facilitators & Networks
@@ -134,6 +135,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and wallets, with x402 pay-per-call endpoints on Base.
 - [Pinata – Pay to Pin on IPFS with x402](https://pinata.cloud/blog/pay-to-pin-on-ipfs-with-x402/)
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
+- [Liquid Agent x402 examples (Code)](https://github.com/LiquidAgent/liquidagentx402) - Tokenized-stock index for agents on Base with a gasless example: a zero-ETH wallet pays the gas sponsor in USDC over x402 and buys the index end to end.
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
 - [Pinata jetson-x402 (Code)](https://github.com/PinataCloud/jetson-x402)
 - [x402 Example Gallery (GitHub)](https://github.com/coinbase/x402/tree/main/examples)
