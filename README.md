@@ -36,6 +36,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) - Free public leaderboard of every paid x402 service indexed via the Coinbase CDP discovery API. Refreshed every 15 min, four views (top by volume / unique payers / recently active / cheapest), JSON variant at `/bazaar.json`. Complementary CDP-only slice next to x402Scan's multi-source view.
 - [gold-402](https://github.com/Haustorium12/gold-402) - Curated x402 directory by 24K Labs. 300+ handpicked entries across facilitators, SDKs, MCP servers, APIs, and tools, with editorial writeups and verified badges for production-confirmed services. Backed by a 29,000+ entry full catalog sourced from CDP Bazaar and Agentic.market.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
+- [Alien Probe Lookups](https://lookups.alienprobe.ai/openapi.json) - Paid single-fact lookups for agents, no signup: `who` (company name/domain/LEI → GLEIF legal entity, $0.05), NAICS, LEI, VIN. x402 v1+v2, USDC on Base; free 400/404/409 refusals before payment; every answer carries source, vintage and snapshot sha256.
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
@@ -136,6 +137,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
 - [Pinata jetson-x402 (Code)](https://github.com/PinataCloud/jetson-x402)
+- [who-in-60-seconds](https://github.com/bbrysonelite-max/who-in-60-seconds) - Buyer-side walkthrough: pay $0.05 with a funded wallet for one GLEIF legal-entity lookup via `@x402/fetch` (v2), with a spend cap, a `--dry` terms preview, and the free 409 disambiguation flow.
 - [x402 Example Gallery (GitHub)](https://github.com/coinbase/x402/tree/main/examples)
 - [Cloudflare Agents x402 Example](https://github.com/cloudflare/agents/tree/main/examples/x402) – Official example showing how to gate Cloudflare Agents endpoints with x402 payments.
 - [x402 Analytics Examples](https://github.com/RemsLabs/x402-analytics-examples) - Practical examples demonstrating x402-analytics usage with buyer and seller implementations.
