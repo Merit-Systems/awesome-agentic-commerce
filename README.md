@@ -137,6 +137,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Pinata 402-server (Code)](https://github.com/PinataCloud/402-server)
 - [Pinata – Monetize AI Hardware (Jetson) with x402](https://pinata.cloud/blog/using-x402-to-monetize-ai-hardware/)
 - [Pinata jetson-x402 (Code)](https://github.com/PinataCloud/jetson-x402)
+- [who-in-60-seconds](https://github.com/bbrysonelite-max/who-in-60-seconds) - Buyer-side walkthrough: pay $0.05 with a funded wallet for one GLEIF legal-entity lookup via `@x402/fetch` (v2), with a spend cap, a `--dry` terms preview, and the free 409 disambiguation flow.
 - [x402 Example Gallery (GitHub)](https://github.com/coinbase/x402/tree/main/examples)
 - [Cloudflare Agents x402 Example](https://github.com/cloudflare/agents/tree/main/examples/x402) – Official example showing how to gate Cloudflare Agents endpoints with x402 payments.
 - [x402 Analytics Examples](https://github.com/RemsLabs/x402-analytics-examples) - Practical examples demonstrating x402-analytics usage with buyer and seller implementations.
