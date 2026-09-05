@@ -39,6 +39,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [FractalAI x402 Proofs](https://fractalai.net.co/.well-known/x402.json) - Post-quantum proof services for AI agents: 7 pay-per-call endpoints on Base (USDC, x402 v2, EIP-3009) covering ML-DSA-65/Dilithium-3 (NIST FIPS 204) signing/verification, AI-decision attestation, and provenance sealing, plus an Algorand mainnet adapter via the GoPlausible facilitator. Every response is verifiable offline (the exact signed message is echoed back). Signatures are resistant to known classical & quantum attacks per NIST FIPS 204 — not "unbreakable".
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -107,6 +108,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [ERC-3009 Forwarding](https://github.com/TheGreatAxios/eip3009-forwarder): forwarding contract extending meta-transactions with EIP-721 signatures to any ERC-20 on any network
 - [x402 Extensions Overview](https://docs.x402.org/extensions/overview): official guide to x402 resource server and facilitator extension points
 - [A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402): specification, libraries, and examples for adding on-chain x402 payments to Agent-to-Agent services
+- [@fractalai/x402-pqc-witness (NPM)](https://www.npmjs.com/package/@fractalai/x402-pqc-witness) - Native `@x402/core` `ResourceServerExtension` that adds a post-quantum (ML-DSA-65) settlement attestation to a resource server's `enrichSettlementResponse` hook. Self-attest mode (free, seller's own key) or notary mode (paid, independent third-party key) for genuine third-party witnessing. Live notary instance: [`/api/x402/witness`](https://fractalai.net.co/api/x402/witness).
 
 ### Tutorials & Guides
 - [AgentCash - Sell to agents](https://agentcash.dev/docs/sell-to-agents)
