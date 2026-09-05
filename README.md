@@ -147,6 +147,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Security & Ops
+- [54ch10](https://54ch10.uk) — Wrap-before-click URL check for agents. Pre-interact brief + page_risk / one-hop, SSRF-safe fetch, domain whois/dns/tls. Analytics-only. Standing order: [wire.md](https://54ch10.uk/wire.md) · [skill.md](https://54ch10.uk/skill.md) · MCP: `npx -y github:sachio222/54ch10-mcp` ([repo](https://github.com/sachio222/54ch10-mcp)).
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
