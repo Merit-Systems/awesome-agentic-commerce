@@ -152,6 +152,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
 
 ### Benchmarks & Analysis
+
+- [utunumus agent-economy index](https://index.utunumus.com) - A measured census of what x402 services actually settle on Base, counted from chain transfers into each catalogued service's payTo rather than from self-reported dashboards, with the operator's own payments excluded. Publishes the zeros as well as the wins: of 23 catalogued services, 19 had no external customer in the window measured. Machine-readable at index.utunumus.com/data.json.
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
 
 ### Videos
