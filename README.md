@@ -144,7 +144,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
-
+- [claude-agent](https://github.com/Krisztian766/claude-agent) – Open-source autonomous agent (Claude Code CLI) that accepts x402-style task payments: `POST /task` returns HTTP 402 with a Sepolia address/amount, `POST /task/<id>/confirm {tx_hash}` verifies the payment on-chain before running the task. Runs unattended — self-modifies its own code behind a git+test gate, pays its own upkeep from its wallet, and spawns funded replicas when it earns a surplus. Sepolia testnet only (no real monetary value) — an open demo/showcase, not a commercial API.
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
