@@ -146,6 +146,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
 
+- [Brian Booms x402 Store](https://brianbooms.com) - 33 digital products (music licenses, podcast packs, sample packs, custom commissions, wallpapers) sold to AI agents via x402 USDC micropayments on Base and Solana, $0.05–$999 with instant download delivery.
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
