@@ -51,6 +51,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
 
 
+- [Neuronto Payments](https://pay.neuronto.com) - x402 facilitator on Base mainnet, v1 and v2. USDC via EIP-3009, idempotent settlement with resubmit-to-poll, payer and merchant addresses screened against the public OFAC SDN crypto address list before any chain call, observed availability published from probe counters at /status, MCP server at /mcp, and a refunding echo merchant at /echo so a client can be tested end to end for nothing.
 ### Open Source & SDKs
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
