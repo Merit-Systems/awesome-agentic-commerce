@@ -92,6 +92,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT.
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [netintel-mcp](https://github.com/kjgueye/netintel-mcp) — MCP server exposing 122 network intelligence tools (DNS, SSL, WHOIS, email security, cloud fingerprinting, OSINT) as pay-per-call x402 APIs. No API key or signup; the agent pays per call from its own wallet, USDC on Base. Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=netintel). Install: `npx netintel-mcp`. ([npm](https://www.npmjs.com/package/netintel-mcp))
 
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
