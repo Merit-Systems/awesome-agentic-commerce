@@ -66,6 +66,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Solana Foundation Pay (x402/MPP CLI and MCP)](https://github.com/solana-foundation/pay) - Local payment layer for handling x402 payment challenges with wallet-authorized stablecoin signing.
 - [Pipegate (x402 + Payment Channels)](https://github.com/Dhruv-2003/pipegate)
 - [TrustBench](https://trustbench.io) - Non-custodial routing and audit layer on top of x402. Ed25519-signed receipts with on-chain settlement evidence, verifiable offline. Fail-safe paywall on Base via the Coinbase CDP facilitator. Verifier on npm: [`@trustbench/verify-receipt`](https://www.npmjs.com/package/@trustbench/verify-receipt).
+- [AVEL](https://github.com/Ensi81/Avel) - Identity/reputation verification layer for agent-to-agent payments across x402, AP2, MPP, and checkout. `POST /verify` reads the proof an agent already produced for its own rail (no extra signature) and returns a verdict plus both parties' reputation — never custodies or moves the payment. Python SDK (MIT) + MCP server.
 - [thirdweb/x402 (Github)](https://github.com/thirdweb-dev/js/tree/main/packages/thirdweb/src/x402)
 - [Faremeter (Typescript Facilitator, Middleware, and Examples)](https://github.com/faremeter/faremeter)
 - [x402-dotnet (Community)](https://github.com/michielpost/x402-dotnet)
