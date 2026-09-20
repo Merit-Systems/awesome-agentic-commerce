@@ -53,6 +53,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Open Source & SDKs
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
+- [openai-agents-nano](https://github.com/PANDeveloper001/openai-agents-nano-x402) - Python x402 payer for the OpenAI Agents SDK that settles in Nano (XNO): instant, feeless, and fully peer-to-peer. MIT.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
 - [coinbase/x402 development fork (GitHub)](https://github.com/coinbase/x402)
 - [x402-rs (Rust Facilitator & SDK)](https://github.com/x402-rs/x402-rs)
