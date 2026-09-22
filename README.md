@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- **[PredMaker](https://predmaker.com/.well-known/agent.json)** - US-only Kalshi + Polymarket US prediction signals and SEC EDGAR M&A alpha via Base L2 x402 (EIP-3009). Freemium 5 req/day; Depth Delta 0.01 USDC; Model Alpha 0.025 USDC. Remote MCP SSE: https://predmaker.com/mcp/sse (tools: get_arbitrage_spreads, get_high_velocity_signals, get_sec_edgar_ma_alpha).
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
