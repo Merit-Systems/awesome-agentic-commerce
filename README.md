@@ -153,6 +153,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [State of Agent Commerce — measured from a live x402 merchant](https://growaify.com/state-of-agent-commerce/) - First-party request-log measurement of what agents do at a merchant that charges them over x402: agent visits, identity concentration, the discovery documents they request, and the requests the merchant fails. Method, limits and published corrections included; CC BY 4.0, machine-readable at https://growaify.com/api/v1/research/agent-commerce.json
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
