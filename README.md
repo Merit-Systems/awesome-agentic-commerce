@@ -153,6 +153,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [Agentic Payments Readiness Dataset](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness) - Evidence-linked comparison of 13 payment providers scored on 7 agent-readiness dimensions (agent SDK/API, MCP server, x402/AP2/ACP support, sandbox, spending guardrails, rails, docs), CC BY 4.0.
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
