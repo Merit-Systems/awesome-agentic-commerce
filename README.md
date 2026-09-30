@@ -146,6 +146,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
 
+- [TrollBridge](https://mini-tollbooth.onrender.com) - Pay-per-call intel API for AI agents: 17 tolled lanes (bounty intel, DeFi data, contract safety screen, gas prices, prediction markets, token safety, AI model catalog, and more) over x402 v2 with USDC settlement on Base and Solana at $0.02 per call. Also available as an MCP server.
+
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
