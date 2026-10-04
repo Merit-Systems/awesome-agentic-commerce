@@ -150,6 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [ChainWard](https://chainward.ai/docs) - On-chain risk checks for Base and BNB Chain addresses before an agent pays them: evidence-linked flags, EAS attestations on Base, pay-per-check over x402 ($0.05 counterparty check, $0.10 check of where an x402 seller's buyers get their USDC). Open source, with an MCP server (`npx chainward-mcp-server`). ([/.well-known/x402](https://api.chainward.ai/.well-known/x402))
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
