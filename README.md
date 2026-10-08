@@ -150,6 +150,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [x402 Doctor](https://x402-doctor.fizzl.eu) - Free checker for x402 and MPP endpoints (Base, Solana, XRPL, Algorand, Tempo, Lightning `lnbtc`): validates the 402 challenge, payout accounts and Bazaar listing, plus a paid preflight that tells a buyer whether an endpoint is safe to pay. Also a [GitHub Action](https://github.com/marketplace/actions/x402-doctor-check).
+- [presign-guard](https://presign-guard.fizzl.eu) - Pre-sign risk check for agents: green/orange/red verdicts for transactions, approvals and Permit signatures, token safety (honeypots, mint/freeze powers) and approval audits. Paid per call over x402 or MPP (including MPP sessions); MCP server and npm/PyPI packages.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
