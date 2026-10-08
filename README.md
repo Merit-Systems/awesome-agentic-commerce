@@ -50,6 +50,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
 
+- [X Pay Facilitator](https://facilitator-xpay.llc/supported) - API-key-gated x402 v2 facilitator for exact USDC payments on Base mainnet via EIP-3009 transferWithAuthorization; merchant API key required for verification and settlement. [Website](https://x-pay.llc/) · [Integration guide](https://facilitator-xpay.llc/docs).
+
 
 ### Open Source & SDKs
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
@@ -185,3 +187,5 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+
+
