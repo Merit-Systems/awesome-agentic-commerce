@@ -49,6 +49,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
+- [Shinjuku Shielded](https://github.com/ShinjukuStaition/shinjuku-shielded) - Private x402 facilitator on Solana mainnet (`https://shinjukustaition.com/api/x402`): agents pay from a self-custodied shielded USDC balance, so the chain does not show who paid. MCP server: [shinjuku-mcp](https://github.com/ShinjukuStaition/shinjuku-mcp).
 
 
 ### Open Source & SDKs
