@@ -147,6 +147,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Security & Ops
+- [x402 Preflight](https://x402.chikocorp.com) - Read-only launch diagnostics for x402 endpoints: reads the live 402 challenge and checks it against the advertised price, network, asset, receiver, scheme and discovery metadata, plus schemas, CORS, redirects and cache behaviour, returning evidence and prioritised fixes. Free endpoint check, 0.05 USDC audit and 5 USDC async report in USDC on Base, and an optional monthly regression monitor. No wallet, no signing, no test purchase.
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
