@@ -147,6 +147,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Security & Ops
+- [Settlens payment-policy regression guide](https://settlens.com/blog/check-x402-payment-policy) - Reproduce five synthetic x402 V2 policy decisions with a browser demo and Node.js CI example. No wallet or payment required; does not verify on-chain settlement.
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
