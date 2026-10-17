@@ -150,7 +150,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
-
+- [Genesis Verify](https://genesis-verify.vercel.app) - Independent on-chain payment verification for agents: re-derives a token Transfer from a second Base node and returns HOLDS/FALLS/UNCHECKED per asserted field, with unread fields named rather than assumed clean; x402-payable ($0.10 verify, $0.01 preflight, USDC on Base) with a free MCP skill at [/skill.md](https://genesis-verify.vercel.app/skill.md).
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
 
