@@ -52,6 +52,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Open Source & SDKs
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) - MIT-licensed CLI and local stdio MCP payment runtime for AI agents on macOS Apple Silicon, with x402 and foreground-approved transfers.
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
 - [coinbase/x402 development fork (GitHub)](https://github.com/coinbase/x402)
