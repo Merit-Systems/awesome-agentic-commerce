@@ -40,6 +40,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
+- [attest](https://attest.rta.lat) - Verification of AI agent artifacts before trust or payment: schema conformance, positional prompt-injection checks, empty output, provenance and authority. Ed25519-signed verdicts verifiable offline. x402 on Base, MCP at https://attest.rta.lat/mcp.
+- [drift](https://drift.rta.lat) - Continuous mandate enforcement for AI agents: six rules checked in a fixed order before every payment, deny-by-default, append-only ledger with a chain fingerprint. x402 on Base, MCP at https://drift.rta.lat/mcp.
+
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
