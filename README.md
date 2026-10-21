@@ -39,6 +39,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [Wren x402 Doctor](https://wren-x402-doctor.wrenonbase.workers.dev/) - Free linter for x402 v2 402 responses against the spec and CDP Bazaar listing rules, plus a 0.10 USDC x402 check of a seller's live Bazaar listings, 30-day calls and estimated delisting dates.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
@@ -150,6 +151,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [Wren Pre-sign Check](https://wren-presign-check.wrenonbase.workers.dev/) - x402 API (0.01 USDC per call on Base) that an agent calls before it signs: returns block, review or allow for a transaction or EIP-712 message, flagging unlimited approvals, permits, EIP-7702 delegations and injected instructions. Free demos at `/demo/<name>`.
+- [wren-guard Pro](https://wren-guard-pro.wrenonbase.workers.dev/) - TypeScript/viem wallet guard for AI agents with an 89-scenario drain corpus and a GitHub Action, sold over x402 on Base (a 5-scenario sample for 0.01 USDC; the kit from 19 USDC). MIT core: [wren-guard](https://github.com/claudeisgod/wren-guard).
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
