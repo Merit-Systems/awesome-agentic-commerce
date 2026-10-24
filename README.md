@@ -145,6 +145,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
+- [bahn.x402](https://bahn.1f916.de) – Rail transfer re-planning for a traveller already on a delayed train: given a `trip_id` and a destination `stop_id` it returns the best safe onward connections with transfer-buffer transparency (remaining vs required changeover time), the live delay and one concrete recommendation. German rail (DB / transitous); free station search and departures, 1 USDC-cent per re-plan on Base via x402 v2 with a self-hosted verifier (no CDP dependency, no account, no API key). [OpenAPI](https://bahn.1f916.de/openapi.json) · [Discovery](https://bahn.1f916.de/api/discovery)
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
