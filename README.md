@@ -31,6 +31,9 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
+- [agent-audit](https://agent-audit.agent-audit.workers.dev/) - Read-only x402 seller audit: live 402 per paid route, price vs catalog, discovery docs and dead links. USDC on Base ($0.02 / $0.01 / $0.005).
+- [page-read](https://page-read.agent-audit.workers.dev/) - Fetch one public page to clean markdown/text and metadata. $0.001 USDC on Base via x402.
+- [x402-tools MCP](https://mcp.agent-audit.workers.dev/mcp) - MCP wrapper for agent-audit and page-read ([source](https://github.com/agent-audit-x402/x402-tools-mcp)).
 - [Pyrimid](https://pyrimid.ai/) - Agent-to-agent commerce infrastructure for x402 and ERC-8004, with MCP-native service discovery and onchain payment splitting through PyrimidRouter. ([Proof](https://pyrimid.ai/proof))
 - [x402station](https://x402station.com/) - Analytics and monitoring platform for x402 services with real-time insights and performance tracking.
 - [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) - Free public leaderboard of every paid x402 service indexed via the Coinbase CDP discovery API. Refreshed every 15 min, four views (top by volume / unique payers / recently active / cheapest), JSON variant at `/bazaar.json`. Complementary CDP-only slice next to x402Scan's multi-source view.
