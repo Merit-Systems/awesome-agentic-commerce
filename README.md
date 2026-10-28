@@ -149,6 +149,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
+- [Pitcrew](https://pitcrew.lfglabs.ai) - Checks an x402 endpoint the way buyers and indexers see it: a valid 402 challenge, accepted networks and prices decoded to USD, oversized payment headers, descriptions over the CDP limit and paid routes the Bazaar has not indexed. Free in the browser; agents pay per call over x402 ([llms.txt](https://pitcrew-api.lfglabs.ai/llms.txt)).
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
 
 ### Benchmarks & Analysis
