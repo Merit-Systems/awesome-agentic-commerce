@@ -151,6 +151,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
 
+- [402 Sentinel](https://github.com/rtomboj/402-sentinel) - Concept for a self-serve scanner covering five x402 settlement failure patterns: duplicate webhook processing, unconfirmed transactions, over-broad allowances, stale indexer data, and unbounded retries. Demand validation only; no scanner implementation is available.
+
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
 
@@ -171,6 +173,14 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [RelayMag – x402 Handshake Explainer](https://therelaymag.com/x402-the-paywall-handshake-that-lets-agents-pay-the-web)
 - [Boosty Labs Blog – AI Agents That Pay Their Own Bills](https://boostylabs.com/ai-agents-that-pay-their-own-bills)
 - [a16z – The Month Fintechs Embraced Stablecoins (mentions x402)](https://a16zcrypto.com/posts/article/making-sense-of-stablecoin-news/)
+
+### Workflow Methodology & Architecture
+
+These adjacent resources cover general AI-assisted workflows and architecture; they do not implement x402 payments or agentic-commerce transaction flows.
+
+- [Innovate](https://github.com/rtomboj/innovate-project-development-mode) - Portable methodology for exploring ideas with AI assistants and agents, comparing approaches, and assessing feasibility before planning a build.
+- [Tomboj VOC Signal-to-Change](https://github.com/rtomboj/tomboj-voc-signal-to-change) - AI-guided instructions and templates for customer-feedback benchmarking, permitted monitoring, owned follow-up, and verification of company improvements.
+- [Tomboj Studio Overview](https://github.com/rtomboj/tomboj-studio-overview) - Public product architecture notes for a private AI-assisted content operations system, covering approval workflows, revision history, and agent-visible records; application code is not included.
 
 ### Community
 - [Reddit – r/x402](https://www.reddit.com/r/x402/)
