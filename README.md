@@ -126,6 +126,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Magic – x402 Payments with Embedded Wallets](https://docs.magic.link/recipes/embedded-wallets/x402-payments) – Guide for using Magic embedded wallets to pay for x402-protected APIs with USDC.
 
 - [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
+- [Useful Work agent kit](https://github.com/dav3trad3r/useful-work-agent) - Pay for x402 tool calls with verified work instead of USDC: agents proofread and check public websites, and tool makers add the `useful-work` extension to accept it and be paid per job. ([npm](https://www.npmjs.com/package/useful-work-agent))
 
 ### Example Apps
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
