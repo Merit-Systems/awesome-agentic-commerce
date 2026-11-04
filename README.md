@@ -150,9 +150,11 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [mcpreflight](https://github.com/xka0085-byte/mcpreflight) – Read-only MCP security scanner and schema checker that also inspects live x402 HTTP 402 challenges on endpoints (no keys, no writes), tracking weekly drift in payment metadata. Ships as a CLI plus GitHub Action; MIT licensed.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
+- [x402 MCP Payments Census](https://xka0085-byte.github.io/mcpreflight/x402-mcp-payments-data.html) – Weekly census of 1,583 x402-payable MCP endpoints discovered in the public MCP registry, of which 65.6% complete a clean anonymous 402 handshake. Machine-readable CSV/JSON published alongside the report. Scope note: this measures clean-initialize handshake rate from a single weekly sweep, not verified listings or paid volume, so it is not comparable to directory listing counts.
 
 ### Videos
 - [x402: Building Tools for AI agents, Demos, and Use-Cases](https://www.youtube.com/watch?v=Nodgp7fiPQc&t=197s)
