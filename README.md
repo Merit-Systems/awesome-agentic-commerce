@@ -41,6 +41,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
 ### Facilitators & Networks
+- [Toll Facilitator (Robinhood Chain)](https://x402.t0ll.xyz/supported) - Public x402 facilitator for USDG on Robinhood Chain (4663): verify, settle and signed receipts.
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
 - [x402 on Stellar](https://developers.stellar.org/docs/build/agentic-payments/x402) - Stellar payment flow, compatible wallets, and facilitator options for x402 payments.
@@ -147,6 +148,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 
 ### Security & Ops
+- [Toll pre-sign check](https://t0ll.xyz/agents/x402#presign) - Checks an x402 payment (or any transaction) before an agent signs it: payTo against the seller's registered ERC-8004 agentWallet, amount and time window; answers ALLOW / WARN / BLOCK as an ERC-8265 RiskAssessment.
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
