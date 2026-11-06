@@ -146,7 +146,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
 
 
-- [Indo News API](https://indo-news-api.vercel.app) - Indonesian and English-language Indonesia news for agents: headlines, keyword search, auditable sentiment, digests and brand monitoring over x402 on Base, Polygon, Arbitrum and Avalanche. 25 paid endpoints from $0.05 up to a $2.50 digest, a $49 written 30-day coverage report and unmetered licences that differ by scope, from $19/30d up to $700/90d with 3,650 prints per call of FX history; free 3-headline preview, 27-tool MCP server (8 free, 23 paid), no key. ([OpenAPI](https://indo-news-api.vercel.app/openapi.json)) ([llms.txt](https://indo-news-api.vercel.app/llms.txt))
+- [Indo News API](https://indo-news-api.vercel.app) - Indonesian and English-language Indonesia news for agents: headlines, keyword search, auditable sentiment, digests and brand monitoring over x402 on Base, Polygon, Arbitrum and Avalanche. 25 paid endpoints from $0.05 up to a $2.50 digest, a $49 written 30-day coverage report and unmetered licences that differ by scope, from $19/30d up to $700/90d with 3,650 prints per call of FX history; free 3-headline preview, 31-tool MCP server (8 free, 23 paid), no key. ([OpenAPI](https://indo-news-api.vercel.app/openapi.json)) ([llms.txt](https://indo-news-api.vercel.app/llms.txt))
 
 ### Security & Ops
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
