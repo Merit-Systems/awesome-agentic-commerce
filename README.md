@@ -28,6 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
+- [SiteForensic](https://siteforensic.com) - Autonomous AI-powered website forensic audit and technical due diligence engine (SEO, security headers, SSL/TLS, DNS records, WHOIS history, PageSpeed). 0.05 USDC per audit on Base mainnet. Full x402 v2 protocol support with Bazaar discovery and OpenAPI documentation. ([Discovery](https://siteforensic.com/.well-known/x402) | [OpenAPI](https://siteforensic.com/openapi.json) | [llms.txt](https://siteforensic.com/llms.txt))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
