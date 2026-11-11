@@ -92,6 +92,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT.
 - [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) ([npm](https://www.npmjs.com/package/agentpay-mcp)) - Non-custodial x402 MCP payment server for AI agents. Local signing — no custodial infrastructure. x402 V2 session payments, Base USDC, CCTP cross-chain.
 - [PipRail](https://github.com/piprail/piprail) - Backendless, MIT TypeScript SDK for x402 across 28 chains in 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No facilitator, no fee — payments settle straight to your wallet, verified locally against your own RPC. ([npm](https://www.npmjs.com/package/@piprail/sdk))
+- [grindfree-guard](https://github.com/ronin93/grindfree-guard) - Drop-in TypeScript (`@grindfree/guard`) and Python adapters that screen GrindFree's x402 agent-security APIs (PromptShield, CrawlSafe, ToolGuard, CommandGuard, MemoryGuard, WireShield, DocShield) before an agent acts and enforce allow/review/deny. Official x402 clients; the caller's Base USDC wallet pays via `X402_PRIVATE_KEY`. LangChain, OpenAI Agents SDK, and MCP client examples.
 
 ### Standards and EIPs
 - [HTTP 402 Payment Required (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402): browser-facing reference for the status code x402 standardizes around.
@@ -150,6 +151,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Whitepaper – Security Section](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 FAQ – Security](https://docs.cdp.coinbase.com/x402/support/faq#security)
 - [Compliance-Aware Agentic Payments on Stablecoin Rails](https://arxiv.org/abs/2605.00071) - Research paper on policy and compliance guardrails for x402-style stablecoin payment authorization.
+- [GrindFree agent security](https://github.com/ronin93/grindfree-agent-security) - Pay-per-call x402 APIs and MCP tools (`npx -y @grindfree/agent-security-mcp`) that screen untrusted text, crawl permission, tool calls, shell/SQL, memory writes, outbound output, and hidden document instructions before an agent acts. USDC on Base; the caller's wallet pays. Decisions are advisory; the caller/adapter must enforce them. Sites: promptshield, crawlsafe, toolguard, commandguard, memoryguard, wireshield, docshield `.grindfree.net`.
 
 ### Benchmarks & Analysis
 - [Dev.to – x402 vs Traditional Payments (Micropayments)](https://dev.to/pathak_prakarsh/x402-finally-payments-built-for-the-internet-not-bolted-onto-it-1058)
