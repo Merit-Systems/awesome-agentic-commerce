@@ -28,7 +28,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Cloudflare Announcement of the x402 Foundation](https://blog.cloudflare.com/x402/)
 
 ### Ecosystem
-- [0mod HTTP 402 API Gateway](https://0mod.com) - Edge HTTP 402 API gateway using x402 micropayments on Base USDC (stealth web fetch, PII redaction, RAG shrink, RDAP domain check, DEX pricing, sentiment). ([MCP](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit](https://github.com/zeromodern/agentkit-provider-0mod))
+- [0mod HTTP 402 API Gateway](https://0mod.com) - Edge HTTP 402 API gateway (`api.0mod.com`, `/.well-known/x402`) using x402 micropayments on Base USDC for real-time CEX-DEX crypto telemetry (dislocations, spread candles, arb leaderboard, L2 impact simulation) and edge utilities (stealth web fetch, PII redaction, RDAP domain check, DEX pricing, OCR). ([MCP](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit](https://github.com/zeromodern/agentkit-provider-0mod))
 - [x402Scan](https://x402scan.com/) - Analytics and overview of the x402 ecosystem.
 - [AgentZone](https://agentzone.fun/) - Unified explorer for trustless AI agents, combining ERC-8004 identity, x402 payment history, reputation signals, and live service status across Base and Arbitrum.
 - [AgentStatus](https://github.com/EvanRMora/agentstatus) - Heartbeat and cron monitoring API for AI agents with x402 micropayments, MCP tools, and multi-channel alerts.
