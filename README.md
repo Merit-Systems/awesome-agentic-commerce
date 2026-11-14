@@ -36,6 +36,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) - Free public leaderboard of every paid x402 service indexed via the Coinbase CDP discovery API. Refreshed every 15 min, four views (top by volume / unique payers / recently active / cheapest), JSON variant at `/bazaar.json`. Complementary CDP-only slice next to x402Scan's multi-source view.
 - [gold-402](https://github.com/Haustorium12/gold-402) - Curated x402 directory by 24K Labs. 300+ handpicked entries across facilitators, SDKs, MCP servers, APIs, and tools, with editorial writeups and verified badges for production-confirmed services. Backed by a 29,000+ entry full catalog sourced from CDP Bazaar and Agentic.market.
 - [x402 Ecosystem Directory](https://www.x402.org/ecosystem)
+- [AIPayGen Marketplace](https://aipaygen.com/market) - Free search over 19,000+ agent resources (APIs, many x402-payable, MCP servers, skills, A2A agents), health-checked so dead listings drop out. Searchable by agents over MCP, A2A and a JSON API. ([llms.txt](https://aipaygen.com/llms.txt))
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
@@ -49,6 +50,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [thirdweb Facilitator & Supported Networks](https://portal.thirdweb.com/payments/x402/facilitator)
 - [Corbits Faremeter Facilitators & Supported Networks](https://docs.corbits.dev/about-corbits/networks)
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
+- [AIPayGen Facilitator](https://aipaygen.com/merchants) - Free, non-custodial x402 facilitator for USDC on Base and Base Sepolia. Gasless for merchants: settles from its own fee wallet or routes to PayAI or Coinbase CDP with failover. ([Supported](https://aipaygen.com/facilitator/supported))
 
 
 ### Open Source & SDKs
