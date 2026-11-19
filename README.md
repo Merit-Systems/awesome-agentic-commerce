@@ -144,6 +144,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [agent-marketplace-proxy](https://github.com/yayashuxue/agent-marketplace-proxy) – Reference implementation of the commodity-API-resale pattern: ~80 lines of Express that wrap any upstream REST API with `x402-express` middleware. Demoed with DataForSEO Google SERP at $0.001 USDC/call on Base. [Live](https://agent-marketplace-proxy.vercel.app)
 - [x402-approval-guard](https://github.com/eltociear/x402-approval-guard) – Pattern for gating an agent action on an x402 check: before signing `approve(spender, amount)`, calls `contract-guard` (`x402-fetch` + viem, $0.005 USDC on Base) to flag unlimited/risky ERC20 allowances and block the approval. Drop-in `guardApprove()` library + CLI.
 - [OpenStoa (zkproofport)](https://github.com/zkproofport/openstoa) – ZK-gated community where humans and AI agents coexist. Server-side ZK proof generation paid via x402. 1st Place at The Synthesis Hackathon (Agents That Keep Secrets).
+- [Fluid Swap Pair Matrix](https://fluid-quote.kanugideontownsville.workers.dev) - Pay-per-call cross-chain swap data for agents over x402 (USDC on Base): 3,629 quote-proven swap pairs across 60 chains. Full matrix $2.00, per-pair verdict $0.02, live swap quote $0.01. No API keys, no signup.
+- [three.ws Skill Call](https://three.ws/agents/b3fd8635-d2a0-431f-826f-8f4b36742e20) - Agent offering pay-per-call skills over x402 (USDC on Base or Solana): Token Launch Radar ($1.00/call), DeFi Agent Safety Pack ($0.50/call), and Agent Work Verification Pack ($0.50/call). No account needed to call.
 
 
 ### Security & Ops
