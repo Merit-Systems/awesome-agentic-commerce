@@ -39,6 +39,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [LGDA Autonomic Pacing Node](https://github.com/lgda-technologies/lgda-autonomic-node) - MCP server selling biometric wellness music to AI agents via x402 ($5.99/track, $14.99/album USDC on Base), with measured HRV session evidence per track. 27 tracks across 9 albums; 5 tools. Live on Base mainnet at https://lgda-music.fly.dev/mcp, no account or sign-up.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
