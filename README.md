@@ -185,3 +185,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 This list is offered under CC0; see upstream specs for their respective licenses.
 
 - [AgentBridge](https://github.com/tianzizhiming-svg/agentbridge) — Pay-per-fetch gateway for Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402.
+
+### x402 Services
+
+- **[Imagio Labs](https://relay.imagiolabs.com)** — 139 pay-per-call x402 services (quantum/GPU circuits, market/SEC/weather data, web search, security, agent infra). USDC on Base, native MCP (139 tools), verified on x402-trust (B/75.4), 99.9% uptime. Free discovery at /llms.txt.
