@@ -60,6 +60,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Python SDK](https://github.com/x402-foundation/x402/tree/main/python/x402) - Official Python client/server, facilitator, and MCP helpers.
 - [x402 Python SDK (PyPI)](https://pypi.org/project/x402/) - Official Python package for client, server, facilitator, and framework integrations.
 - [x402 Go SDK](https://github.com/x402-foundation/x402/tree/main/go) - Official Go client/server, facilitator, and MCP package.
+- [Agent Tollbooth 402](https://github.com/Red-Center-Studio/agent-tollbooth-402) - MIT edge middleware (Cloudflare Workers, Hono, Next.js) and MCP server that answer AI agents with HTTP 402 and settle x402 USDC payments straight to the seller's own wallet.
 - [x402 Java SDK](https://github.com/x402-foundation/x402/tree/main/java) - Official Java implementation for JVM services.
 - [x402-analytics (NPM)](https://www.npmjs.com/package/x402-analytics) - Analytics wrapper for x402 payments with monitoring and insights.
 - [x402-Solana (Community)](https://github.com/8bitsats/x402-Solana)
@@ -116,6 +117,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402 Quickstart for Sellers](https://docs.cdp.coinbase.com/x402/quickstart-for-sellers)
 - [x402 Quickstart for Buyers](https://docs.cdp.coinbase.com/x402/quickstart-for-buyers)
 - [x402 Migration Guide (v1 to v2)](https://docs.cdp.coinbase.com/x402/migration-guide) - official upgrade guide covering header changes, CAIP-2 network IDs, and current v2 SDK package mappings.
+- [Red Center Studio – Charge AI agents per API call on Cloudflare Workers with x402](https://redcenterstudio.com/knowledge-base/charge-ai-agents-per-call-cloudflare-workers-x402/) - Step-by-step seller guide: wallet, middleware, free testing on Base Sepolia, then going live on Base.
 - [MCP Server with x402 Guide](https://docs.cdp.coinbase.com/x402/mcp-server)
 - [x402 Foundation – MCP Server with x402](https://docs.x402.org/guides/mcp-server-with-x402)
 - [Base AgentKit – Building Autonomous Agents with x402](https://docs.base.org/agentkit/x402)
