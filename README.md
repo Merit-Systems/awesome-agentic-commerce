@@ -64,6 +64,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402-analytics (NPM)](https://www.npmjs.com/package/x402-analytics) - Analytics wrapper for x402 payments with monitoring and insights.
 - [x402-Solana (Community)](https://github.com/8bitsats/x402-Solana)
 - [Solana Foundation Pay (x402/MPP CLI and MCP)](https://github.com/solana-foundation/pay) - Local payment layer for handling x402 payment challenges with wallet-authorized stablecoin signing.
+- [Agent402 toolkit (Solana)](https://github.com/agent402-dev/agent402-toolkit) - Open-source x402 tools for Solana: a spend-limited payment MCP server for agents, server helpers for sellers, and Agent402 Bond, a Solana program (no upgrade authority) where a seller bond and a buyer deposit back one job. Not affiliated with agent402.tools.
 - [Pipegate (x402 + Payment Channels)](https://github.com/Dhruv-2003/pipegate)
 - [TrustBench](https://trustbench.io) - Non-custodial routing and audit layer on top of x402. Ed25519-signed receipts with on-chain settlement evidence, verifiable offline. Fail-safe paywall on Base via the Coinbase CDP facilitator. Verifier on npm: [`@trustbench/verify-receipt`](https://www.npmjs.com/package/@trustbench/verify-receipt).
 - [thirdweb/x402 (Github)](https://github.com/thirdweb-dev/js/tree/main/packages/thirdweb/src/x402)
