@@ -125,8 +125,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Privy – Using x402 payments with embedded wallets](https://docs.privy.io/recipes/agent-integrations/x402) – React and Node.js examples for signing x402 payments from Privy wallets.
 - [Magic – x402 Payments with Embedded Wallets](https://docs.magic.link/recipes/embedded-wallets/x402-payments) – Guide for using Magic embedded wallets to pay for x402-protected APIs with USDC.
 
-- [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub]
-- (https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
+- [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 - [Swavent Guides](https://swavent.com/en/guides) — Free Shopify, ecommerce, SEO and web development guides.
 
 ### Example Apps
