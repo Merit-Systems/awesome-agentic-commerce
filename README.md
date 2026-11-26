@@ -39,6 +39,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Strale](https://strale.dev) - Business data & compliance APIs for AI agents. 250+ quality-scored capabilities (company data, VAT validation, sanctions screening, KYB) across 27 countries with x402 payment support. [MCP server](https://www.npmjs.com/package/strale-mcp) available.
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
+- [FMF Tools](https://tools.fmf-x402.workers.dev/?ref=gh-awesome-agentic-commerce) - Catalog of remote MCP servers and pay-per-call APIs for agents. `tools/list` is free; `tools/call` is pay-per-call via x402 on Base (USDC) or MPP. Directory MCP: https://tools.fmf-x402.workers.dev/mcp
+- [THE $1,000 FLEX](https://fmf-flex-crown.fmf-x402.workers.dev/?ref=gh-awesome-agentic-commerce) - Base x402 leaderboard at `POST /v1/flex`. Quoted price is $1,000 USDC on Base, or $500 when the settled payer wallet currently holds the crown. FMF Genesis is the 3-call founding boss. A settled call returns a Proof-of-Flex trophy with dynamic ERC-721 metadata and a live SVG.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
