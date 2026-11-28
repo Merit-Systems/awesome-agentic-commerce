@@ -40,6 +40,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 
+- [Reaper Claim Verify](https://x402-report-production.up.railway.app) - Pay-per-call claim-verification briefs for AI agents: on-chain + cited-source checks with measured-vs-asserted verdicts. 0.01–1.00 USDC/call on Base via x402, no API key.
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
@@ -51,6 +52,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [OpenZeppelin Relayer x402 Facilitator](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide) - Stellar x402 facilitator plugin for payment verification and settlement via OpenZeppelin Relayer.
 
 
+- [ReaperFacilitator](https://reaper-facilitator-production.up.railway.app) - x402 facilitator for Base USDC (exact, v1+v2). Verify free; seller-side settlement fee 0.01 USDC flat at $0.50+, 2% (min 0.001) below.
 ### Open Source & SDKs
 - [AgentCash Router](https://github.com/merit-systems/agentcash-router) - x402 + mpp + discover SDK.
 - [x402 Foundation reference SDKs](https://github.com/x402-foundation/x402)
