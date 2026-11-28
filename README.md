@@ -105,6 +105,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 
 #### Extensions
 - [ERC-3009 Forwarding](https://github.com/TheGreatAxios/eip3009-forwarder): forwarding contract extending meta-transactions with EIP-721 signatures to any ERC-20 on any network
+- [PACT](https://github.com/Balanov/pact) - Verifiable trail format for agent-initiated payments: quote, consent, commit, receipt, chained by digests.
 - [x402 Extensions Overview](https://docs.x402.org/extensions/overview): official guide to x402 resource server and facilitator extension points
 - [A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402): specification, libraries, and examples for adding on-chain x402 payments to Agent-to-Agent services
 
